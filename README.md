@@ -10,14 +10,16 @@ deft
 Syntax
 ------
 
-Canonical form
---------------
+### Canonical form
 
 `deft` is mostly syntactic sugar with a handful of canonical forms. This allows tools to work closer to the semantics of what the code is expressing, rather the syntax.
 
 ### Everything is a "function"
 
-This is the simple way to thinking `deft`
+  * functions are closures assigned an indentifer
+  * closures take in a tuple and return a tuple
 
 Semantics
 ---------
+
+  * closure tuples are curried, thus closure can be thought of as taking in a single value and returning a single value
